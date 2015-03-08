@@ -1,28 +1,25 @@
 fileFormatVersion: 2
-guid: b18b82a2a7612904ba38110776f694f2
+guid: d8657c1e94f36ea4b84dd7fb2a8a4f62
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Floor
-    100004: Wall
-    100006: Cube
+    100002: Light_Bulb
+    100004: Light_Housing
+    100006: Light_Housing_001
     400000: //RootNode
-    400002: Floor
-    400004: Wall
-    400006: Cube
-    2300000: //RootNode
-    2300002: Floor
-    2300004: Wall
-    2300006: Cube
-    3300000: //RootNode
-    3300002: Floor
-    3300004: Wall
-    3300006: Cube
-    4300000: Plane
-    4300002: Wall
-    4300004: Floor
-    4300006: Cube
+    400002: Light_Bulb
+    400004: Light_Housing
+    400006: Light_Housing_001
+    2300000: Light_Bulb
+    2300002: Light_Housing
+    2300004: Light_Housing_001
+    3300000: Light_Bulb
+    3300002: Light_Housing
+    3300004: Light_Housing_001
+    4300000: Light_Bulb
+    4300002: Light_Housing
+    4300004: Light_Housing_001
     7400000: Default Take
     9500000: //RootNode
   materials:
