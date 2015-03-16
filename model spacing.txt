@@ -1,0 +1,7 @@
+Room is the base axis
+
+Floor (walls/floors/ceiling) P(0), R(0), S(40)
+	Projector Wall P(-1.125, .75, .02) R(0,0,0) S(.29, .27, 1.15)
+	Wall P(0, 0.79, -1) R(-90, 0, 0) S(1, .01, 1)
+	Floor P(0,0,0) R(-90, 0, 0) S(1,1,1)
+	Cube P(0, .82, 0) R(-90, -3.05, 0) S(1.73, 1.25, .01)
