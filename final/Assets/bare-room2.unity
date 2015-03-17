@@ -5035,6 +5035,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1.50000048
       objectReference: {fileID: 0}
+    - target: {fileID: 143406, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
+      propertyPath: m_TagString
+      value: smallLights
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
   m_RootGameObject: {fileID: 1142422860}
@@ -6525,6 +6529,10 @@ Prefab:
     - target: {fileID: 443406, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
       propertyPath: m_LocalScale.y
       value: 1.50000072
+      objectReference: {fileID: 0}
+    - target: {fileID: 143406, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
+      propertyPath: m_TagString
+      value: smallLights
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
@@ -9900,7 +9908,7 @@ GameObject:
   - 95: {fileID: 204250189}
   m_Layer: 0
   m_Name: basiclightbank
-  m_TagString: Untagged
+  m_TagString: smallLights
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15068,6 +15076,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1.50000036
       objectReference: {fileID: 0}
+    - target: {fileID: 143406, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
+      propertyPath: m_TagString
+      value: smallLights
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
   m_RootGameObject: {fileID: 1630036236}
@@ -16522,7 +16534,7 @@ GameObject:
   - 95: {fileID: 334530366}
   m_Layer: 0
   m_Name: basiclightbank
-  m_TagString: Untagged
+  m_TagString: smallLights
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17925,6 +17937,10 @@ Prefab:
     - target: {fileID: 443406, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
       propertyPath: m_LocalScale.y
       value: 1.50000048
+      objectReference: {fileID: 0}
+    - target: {fileID: 143406, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
+      propertyPath: m_TagString
+      value: smallLights
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
@@ -19449,6 +19465,7 @@ GameObject:
   - 92: {fileID: 396594602}
   - 124: {fileID: 396594601}
   - 81: {fileID: 396594600}
+  - 114: {fileID: 396594605}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -19521,6 +19538,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+--- !u!114 &396594605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 396594599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9688df298bd0df648ae7def32011020c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &396658324
 GameObject:
   m_ObjectHideFlags: 0
@@ -33013,7 +33041,7 @@ GameObject:
   - 95: {fileID: 692375907}
   m_Layer: 0
   m_Name: basiclightbank
-  m_TagString: Untagged
+  m_TagString: smallLights
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38801,6 +38829,10 @@ Prefab:
     - target: {fileID: 443406, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
       propertyPath: m_LocalScale.y
       value: 1.5000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 143406, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
+      propertyPath: m_TagString
+      value: smallLights
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
@@ -48376,7 +48408,7 @@ GameObject:
   - 95: {fileID: 1021807299}
   m_Layer: 0
   m_Name: basiclightbank
-  m_TagString: Untagged
+  m_TagString: smallLights
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50365,7 +50397,7 @@ GameObject:
   - 95: {fileID: 1068123312}
   m_Layer: 0
   m_Name: boxlightbank
-  m_TagString: Untagged
+  m_TagString: boxLightFar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51718,6 +51750,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1.50000036
       objectReference: {fileID: 0}
+    - target: {fileID: 143406, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
+      propertyPath: m_TagString
+      value: smallLights
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
   m_RootGameObject: {fileID: 692375905}
@@ -51761,6 +51797,10 @@ Prefab:
     - target: {fileID: 478756, guid: b9edc168ee2c2d346aac5a3ff50c3008, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 178756, guid: b9edc168ee2c2d346aac5a3ff50c3008, type: 2}
+      propertyPath: m_TagString
+      value: boxLightFar
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9edc168ee2c2d346aac5a3ff50c3008, type: 2}
@@ -53605,7 +53645,7 @@ GameObject:
   - 95: {fileID: 1142422862}
   m_Layer: 0
   m_Name: basiclightbank
-  m_TagString: Untagged
+  m_TagString: smallLights
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69571,6 +69611,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1.5000006
       objectReference: {fileID: 0}
+    - target: {fileID: 143406, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
+      propertyPath: m_TagString
+      value: smallLights
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
   m_RootGameObject: {fileID: 204250187}
@@ -71418,7 +71462,7 @@ GameObject:
   - 95: {fileID: 1555797738}
   m_Layer: 0
   m_Name: basiclightbank
-  m_TagString: Untagged
+  m_TagString: smallLights
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74678,7 +74722,7 @@ GameObject:
   - 95: {fileID: 1630036238}
   m_Layer: 0
   m_Name: basiclightbank
-  m_TagString: Untagged
+  m_TagString: smallLights
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80283,6 +80327,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 143406, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
+      propertyPath: m_TagString
+      value: smallLights
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aaf3fe2ad6761444cb85c696733d3122, type: 2}
   m_RootGameObject: {fileID: 334530364}
@@ -82786,7 +82834,7 @@ GameObject:
   - 95: {fileID: 1817302869}
   m_Layer: 0
   m_Name: boxlightbank
-  m_TagString: Untagged
+  m_TagString: boxLightFar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87282,7 +87330,7 @@ GameObject:
   - 95: {fileID: 1902318644}
   m_Layer: 0
   m_Name: basiclightbank
-  m_TagString: Untagged
+  m_TagString: smallLights
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
