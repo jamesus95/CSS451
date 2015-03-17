@@ -58,6 +58,7 @@
      <Compile Include="Assets\flipSwitch.cs" />
      <Compile Include="Assets\flipSwitchB.cs" />
      <Compile Include="Assets\projectorSlide.cs" />
+     <Compile Include="Assets\seatControl.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
