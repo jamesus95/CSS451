@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CameraMovement : MonoBehaviour {
 
-    private static readonly float speed = 10f;
+    private static readonly float speed = 5f;
 
     private int y;      // ctrl/space
     private int x;      // q/e
@@ -45,13 +45,13 @@ public class CameraMovement : MonoBehaviour {
                         z = 0;
                         break;
 
-                    case KeyCode.Space:
-                        y = 0;
-                        break;
+                    //case KeyCode.Space:
+                    //    y = 0;
+                    //    break;
 
-                    case KeyCode.LeftControl:
-                        y = 0;
-                        break;
+                    //case KeyCode.LeftControl:
+                    //    y = 0;
+                    //    break;
 
                     case KeyCode.Q:
                         x = 0;
@@ -84,13 +84,13 @@ public class CameraMovement : MonoBehaviour {
                         z = -1;
                         break;
 
-                    case KeyCode.Space:
-                        y = 1;
-                        break;
+                    //case KeyCode.Space:
+                     //   y = 1;
+                      //  break;
 
-                    case KeyCode.LeftControl:
-                        y = -1;
-                        break;
+                    //case KeyCode.LeftControl:
+                    //    y = -1;
+                    //    break;
 
                     case KeyCode.Q:
                         x = -1;
