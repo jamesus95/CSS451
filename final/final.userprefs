@@ -1,12 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\seatControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\tableswivel.cs">
     <Files>
-      <File FileName="Assets\RollScreen.cs" Line="22" Column="2" />
-      <File FileName="Assets\Scripts\LightControl.cs" Line="69" Column="23" />
-      <File FileName="Assets\flipSwitch.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CameraMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\seatControl.cs" Line="24" Column="21" />
+      <File FileName="Assets\tableswivel.cs" Line="35" Column="18" />
+      <File FileName="Assets\chairControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\seatControl.cs" Line="30" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

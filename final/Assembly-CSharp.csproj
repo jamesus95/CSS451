@@ -55,10 +55,12 @@
      <Compile Include="Assets\Scripts\Remove.cs" />
      <Compile Include="Assets\Scripts\Rotate.cs" />
      <Compile Include="Assets\Scripts\SlideLeft.cs" />
+     <Compile Include="Assets\chairControl.cs" />
      <Compile Include="Assets\flipSwitch.cs" />
      <Compile Include="Assets\flipSwitchB.cs" />
      <Compile Include="Assets\projectorSlide.cs" />
      <Compile Include="Assets\seatControl.cs" />
+     <Compile Include="Assets\tableswivel.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
