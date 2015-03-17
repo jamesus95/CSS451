@@ -17,12 +17,14 @@ public class LightControl : MonoBehaviour {
         //foreach (GameObject o in temp) {
         //    boxLightClose.AddRange(o.GetComponentsInChildren<Light>());
         //}
-        GameObject[] temp = GameObject.FindGameObjectsWithTag("boxLightFar");
+        
+		GameObject[] temp = GameObject.FindGameObjectsWithTag("boxLightFar");
         foreach (GameObject o in temp)
         {
             boxLightFar.AddRange(o.GetComponentsInChildren<Light>());
         }
-        temp = GameObject.FindGameObjectsWithTag("smallLights");
+        
+		temp = GameObject.FindGameObjectsWithTag("smallLights");
         foreach (GameObject o in temp)
         {
             smallLights.AddRange(o.GetComponentsInChildren<Light>());
