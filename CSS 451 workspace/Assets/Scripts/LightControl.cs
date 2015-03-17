@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+// Place on switches that are named (closeSwitch, farSwitch, and smallSwitch)
+// Name groups of lights (boxLightClose, boxLightFar, smallLights) NOT INDIVIDUAL LIGHTS
+// code will get all children of the object you name
 public class LightControl : MonoBehaviour {
 
     ArrayList boxLightClose = new ArrayList();
