@@ -29,19 +29,21 @@ public class LightControl : MonoBehaviour {
         }
         Debug.Log(boxLightFar.Count + "   " + smallLights.Count);
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+
+    void Update()
+    {
         if (Input.GetKeyDown(KeyCode.M))
         {
-            Debug.Log("M");
-            SwitchFar();
+            SwitchSmall();
         }
         if (Input.GetKeyDown(KeyCode.N))
         {
-            Debug.Log("N");
-            SwitchSmall();
+            SwitchFar();
         }
+    }
+
+	void OnMouseUp () {
         switch (this.gameObject.tag)
         {
             case "closeSwitch":
