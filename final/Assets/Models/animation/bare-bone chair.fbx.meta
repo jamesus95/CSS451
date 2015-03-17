@@ -1,0 +1,1406 @@
+fileFormatVersion: 2
+guid: 65c2b359abe1fb74a80772611da0d919
+timeCreated: 1426622509
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arm-table
+    100002: Backrest
+    100004: //RootNode
+    100006: Camera
+    100008: Lamp
+    100010: Left arm rest
+    100012: Left Support
+    100014: Point
+    100016: Point.001
+    100018: Right arm rest
+    100020: Right Support
+    100022: rotate axle
+    100024: Seat
+    400000: Arm-table
+    400002: Backrest
+    400004: //RootNode
+    400006: Camera
+    400008: Lamp
+    400010: Left arm rest
+    400012: Left Support
+    400014: Point
+    400016: Point.001
+    400018: Right arm rest
+    400020: Right Support
+    400022: rotate axle
+    400024: Seat
+    2300000: Arm-table
+    2300002: Backrest
+    2300004: Left arm rest
+    2300006: Left Support
+    2300008: Right arm rest
+    2300010: Right Support
+    2300012: rotate axle
+    2300014: Seat
+    3300000: Arm-table
+    3300002: Backrest
+    3300004: Left arm rest
+    3300006: Left Support
+    3300008: Right arm rest
+    3300010: Right Support
+    3300012: rotate axle
+    3300014: Seat
+    4300000: Arm-table
+    4300002: Left arm rest
+    4300004: Right Support
+    4300006: rotate axle
+    4300008: Seat
+    4300010: Backrest
+    4300012: Left Support
+    4300014: Right arm rest
+    7400000: Point|Arm-tableAction
+    7400002: Point|SeatAction
+    7400004: Arm-table|Arm-tableAction
+    7400006: Arm-table|SeatAction
+    7400008: Left arm rest|Arm-tableAction
+    7400010: Left arm rest|SeatAction
+    7400012: Right Support|Arm-tableAction
+    7400014: Right Support|SeatAction
+    7400016: rotate axle|Arm-tableAction
+    7400018: rotate axle|SeatAction
+    7400020: Seat|Arm-tableAction
+    7400022: Seat|SeatAction
+    7400024: Backrest|Arm-tableAction
+    7400026: Backrest|SeatAction
+    7400028: Lamp|Arm-tableAction
+    7400030: Lamp|SeatAction
+    7400032: Camera|Arm-tableAction
+    7400034: Camera|SeatAction
+    7400036: Left Support|Arm-tableAction
+    7400038: Left Support|SeatAction
+    7400040: Right arm rest|Arm-tableAction
+    7400042: Right arm rest|SeatAction
+    7400044: Point.001|Arm-tableAction
+    7400046: Point.001|SeatAction
+    7400048: Arm-table|Arm-tableAction0
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: Arm-table
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Arm-table|Arm-tableAction0
+      takeName: Arm-table|Arm-tableAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Point|SeatAction
+      takeName: Point|SeatAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Arm-table|Arm-tableAction
+      takeName: Arm-table|Arm-tableAction
+      firstFrame: 0
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Curve
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Arm-table|SeatAction
+      takeName: Arm-table|SeatAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Left arm rest|Arm-tableAction
+      takeName: Left arm rest|Arm-tableAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Left arm rest|SeatAction
+      takeName: Left arm rest|SeatAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Right Support|Arm-tableAction
+      takeName: Right Support|Arm-tableAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Right Support|SeatAction
+      takeName: Right Support|SeatAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: rotate axle|Arm-tableAction
+      takeName: rotate axle|Arm-tableAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: rotate axle|SeatAction
+      takeName: rotate axle|SeatAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Seat|Arm-tableAction
+      takeName: Seat|Arm-tableAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Seat|SeatAction
+      takeName: Seat|SeatAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Backrest|Arm-tableAction
+      takeName: Backrest|Arm-tableAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Backrest|SeatAction
+      takeName: Backrest|SeatAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Lamp|Arm-tableAction
+      takeName: Lamp|Arm-tableAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Lamp|SeatAction
+      takeName: Lamp|SeatAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Camera|Arm-tableAction
+      takeName: Camera|Arm-tableAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Camera|SeatAction
+      takeName: Camera|SeatAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Left Support|Arm-tableAction
+      takeName: Left Support|Arm-tableAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Left Support|SeatAction
+      takeName: Left Support|SeatAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Right arm rest|Arm-tableAction
+      takeName: Right arm rest|Arm-tableAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Right arm rest|SeatAction
+      takeName: Right arm rest|SeatAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Point.001|Arm-tableAction
+      takeName: Point.001|Arm-tableAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Point.001|SeatAction
+      takeName: Point.001|SeatAction
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm-table
+        weight: 1
+      - path: Backrest
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left arm rest
+        weight: 1
+      - path: Left Support
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point.001
+        weight: 1
+      - path: Right arm rest
+        weight: 1
+      - path: Right Support
+        weight: 1
+      - path: rotate axle
+        weight: 1
+      - path: Seat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

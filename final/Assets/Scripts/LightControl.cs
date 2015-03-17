@@ -11,6 +11,9 @@ public class LightControl : MonoBehaviour {
     ArrayList boxLightFar = new ArrayList();
     ArrayList smallLights = new ArrayList();
 
+	ArrayList screens = new ArrayList();
+
+
 	// Use this for initialization
 	void Start () {
         //GameObject[] temp = GameObject.FindGameObjectsWithTag("boxLightClose");
@@ -30,6 +33,11 @@ public class LightControl : MonoBehaviour {
             smallLights.AddRange(o.GetComponentsInChildren<Light>());
         }
         Debug.Log(boxLightFar.Count + "   " + smallLights.Count);
+
+		temp = GameObject.FindGameObjectsWithTag ("screen");
+		foreach (GameObject o in temp) {
+			screens.AddRange(o.GetComponents<RollScreen>());
+		}
 	}
 
 
@@ -60,7 +68,16 @@ public class LightControl : MonoBehaviour {
                 SwitchSmall();
                 break;
 
+			case "colorSwitch":
+				switchScreen();
+				break;
         }
+	}
+
+	void switchScreen() {
+		foreach (RollScreen screenScript in screens) {
+			screenScript.launchAnimation();
+		}
 	}
 
     void SwitchClose()
