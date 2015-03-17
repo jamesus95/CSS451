@@ -27,30 +27,44 @@ public class LightControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+        switch (this.gameObject.tag)
+        {
+            case "closeSwitch":
+                SwitchClose();
+                break;
+
+            case "farSwitch":
+                SwitchFar();
+                break;
+
+            case "smallSwitch":
+                SwitchSmall();
+                break;
+
+        }
 	}
 
-    void SwitchClose(bool on)
+    void SwitchClose()
     {
         foreach (Light l in boxLightClose)
         {
-            l.enabled = on;
+            l.enabled = !l.enabled;
         }
     }
 
-    void SwitchFar(bool on)
+    void SwitchFar()
     {
         foreach (Light l in boxLightFar)
         {
-            l.enabled = on;
+            l.enabled = !l.enabled;
         }
     }
 
-    void SwitchSmall(bool on)
+    void SwitchSmall()
     {
         foreach (Light l in smallLights)
         {
-            l.enabled = on;
+            l.enabled = !l.enabled;
         }
     }
 }
